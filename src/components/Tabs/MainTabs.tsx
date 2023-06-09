@@ -22,7 +22,7 @@ const MainTabs = () => {
                     <Tab label="All Tasks" value="1" />
                     <Tab label="Important Tasks" value="2" />
                     <Tab label="Completed Tasks" value="3" />
-                    <Tab label="Uncompleted tasks" value="4" />
+                    <Tab label="Incompleted tasks" value="4" />
                 </TabList>
             </Box>
             <TabPanel value="1"><Home /></TabPanel>
