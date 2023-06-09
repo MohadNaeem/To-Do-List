@@ -28,7 +28,7 @@ const MainTabs = () => {
             <TabPanel value="1"><Home /></TabPanel>
             <TabPanel value="2"><ImportantTasks /></TabPanel>
             <TabPanel value="3"><DoneTasks done={true} title="Completed tasks" /></TabPanel>
-            <TabPanel value="4"><DoneTasks done={false} title="Uncompleted tasks" /></TabPanel>
+            <TabPanel value="4"><DoneTasks done={false} title="Incompleted tasks" /></TabPanel>
         </TabContext>
     </>
 }
